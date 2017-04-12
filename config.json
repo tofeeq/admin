@@ -1,0 +1,8 @@
+{
+	"db" : "test",
+	"uname" : "root",
+	"pass"	: "",
+	"host"	: "localhost",
+	"theme" : "default",
+	"layout" : "default"
+}

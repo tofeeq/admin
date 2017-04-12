@@ -1,0 +1,22 @@
+<?php if ($view->msg): ?>
+<div class="success"><?php echo $view->msg; ?></div>
+<?php endif; ?>
+<form method="post">
+	<section>
+		<div class="col-md-6">
+			<label>Name</label>
+			<div>
+				<input type="text" name="name" value="<?php echo $view->title; ?>">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<label>Parent ID</label>
+			<div>
+				<input type="text" name="parent_id" value="<?php echo $view->parent_id;  ?>">
+			</div>
+		</div>
+	</section>
+	<section>
+		<input type="submit" name="submit">
+	</section>
+</form>
